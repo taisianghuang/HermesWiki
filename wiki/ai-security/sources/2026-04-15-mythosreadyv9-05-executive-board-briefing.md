@@ -8,51 +8,51 @@ created_by: hermes
 tags: [ai-security, executive-briefing, board, risk-summary, talking-points]
 sources: [../../raw/ai-security/mythosreadyv9.pdf]
 related: [Mythosreadyv9 CSA 報告來源]
-summary: 面向高層的 AI 風險簡報：AI 同時加速攻擊與防禦、Containment 架構比以往更重要、投資 AI 防禦工具的商業理由、以及六項 90 天行動計畫（增補人手、更新 playbook、追蹤進度、部署 AI 工具、強化基礎設施、加速採購治理）。
+summary: 面向高層的 AI 風險簡報：AI 同時加速攻擊與防禦、Containment 架構比以往更重要、投資 AI 防禦工具的商業理由、以及六項 90 天行動計畫。
 ---
 
-# V. Executive and Board Briefing: the AI Risk Summary
+# V. Executive and Board Briefing: the AI Risk Summary（高層與董事會簡報：AI 風險摘要）
 
-Mythos is now a boardroom concern, and that creates an opportunity. This section is a working tool for CISOs preparing a leadership and/or board update.
+Mythos 現在已是董事會關注的議題，這創造了一個機會。本節是 CISO 準備高層和/或董事會更新的工作工具，圍繞兩件事組織：為當前計畫提供正當理由，以及為後續行動提出理由。
 
-## The Shift
+## 轉變
 
-AI at the capability level demonstrated by Mythos will transform how organizations operate, compressing development cycles and accelerating time to market. The business is already pursuing that value with current highly-capable models.
+Mythos 展示的能力水準將改變組織的運作方式，壓縮開發週期並加速上市時間。業務部門正在透過目前能力強大的模型追求這種價值。
 
-That same capability in adversary hands compresses the time between a vulnerability existing and causing business disruption from **weeks to hours**; a permanent acceleration, not a temporary spike.
+同樣的能力落在對手手中，會將漏洞存在到造成業務中斷之間的時間從數週壓縮到數小時；這是永久性的加速，不是暫時的高峰。
 
-This has two implications for the organization:
+這對組織有兩個影響：
 
-1. Several assumptions behind current risk metrics may no longer hold and need re-examination. We have moved into a world of **containment and resilience**, so metrics should now focus on the speed to recover to normal operations.
+1. 支撐當前風險指標的若干假設可能不再成立，需要重新審查。我們已進入一個以**控制和韌性**為重的世界，因此指標現在應該專注於恢復正常營運的速度。
 
-2. The same AI capabilities that create this risk also create a **defensive opportunity**: organizations can now identify their own weaknesses before attackers do, review code at machine speed, and respond to incidents faster than any human team can. Organizations that invest will be both faster to market and more resilient to attack.
+2. 創造這種風險的相同 AI 能力也創造了**防禦機會**：組織現在可以比對手更早發現自身弱點、以機器速度審查程式碼，並以任何人類團隊都無法達到的速度回應事件。投資的組織將同時擁有更快的上市速度和更強的韌性。
 
-## Talking Point: AI Accelerates Both Sides
+## 談話要點：AI 同時加速雙方
 
-> "AI is making us faster and more competitive. But those same capabilities make attackers faster and more dangerous. It has compressed the time to a serious incident from weeks to hours. Turned inward, these tools let us find and fix our own weaknesses before adversaries do. Without attention to buying down risk, we move faster as a business while accumulating risk just as rapidly."
+> 「AI 讓我們變得更快、更有競爭力。但同樣的能力也讓攻擊者變得更快、更危險。它將嚴重事件的時間從數週壓縮到數小時，這個差距將繼續縮小。反向使用這些工具，讓我們能在對手之前發現並修補自己的弱點。如果不注意降低風險，我們作為企業走得更快，風險也累積得同樣迅速。」
 
-The security program the company has funded is what makes the AI security strategy viable. The investments already in place ensure that no single point of entry becomes a full business disruption. In an environment where entry points and weaknesses are discovered faster, **that containment architecture is more valuable, not less**.
+公司已經資助的安全計畫，正是讓 AI 安全策略可行的基礎。現有的投資確保了沒有單一入口點會成為全面業務中斷。在入口點和弱點被更快發現的環境中，**控制架構比以往更有價值，而非減少**。
 
-With continued support, the changes recommended will return risk to pre-Mythos levels and demonstrate due diligence in response to a documented shift in the threat environment. This program builds the foundation that lets the business move fast with confidence.
+隨著持續支持，所建議的變更將使風險恢復到 Mythos 前的水平，並展示對威脅環境記錄在案的轉變做出盡職反應的 due diligence。這個計畫建立了讓企業充滿信心快速行動的基礎。
 
-## Talking Point: An Aggressive Plan Is Needed
+## 談話要點：需要積極的計畫
 
-This is not an open-ended AI initiative. We are seeking alignment to execute a **targeted and aggressive 90-day plan** with clear owners and outcomes:
+這不是一個無期限的 AI 倡議。我們尋求達成共識，以執行一項**有針對性的積極 90 天計畫**，並有明確的負責人和成果：
 
-### 1. Increase People and Capacity
-Plan for repurposing of existing staff (within the security org, but also, and especially, within engineering teams) and/or onboarding of additional headcount and contractor capacity to handle the anticipated increases in triage, remediation, and incidents, while protecting experienced staff from burnout — especially as the first wave of Glasswing patches hits.
+### 1. 增加人力和能力
+規劃重新部署現有人員（不僅在安全組織內，還特別是在工程團隊中）和/或僱用額外人手的承包商容量，以處理預期增加的分級、修補和事件，同時保護有經驗的員工免受倦怠——特別是當第一波 Glasswing 修補到來時。
 
-### 2. Update Playbooks
-Update technical and communications response plans to execute at the required speed and scale, including pre-authorized containment and coordination for simultaneous incidents.
+### 2. 更新 playbook
+更新技術和通訊回應計畫，以所需的速度和規模執行，包括同時事件的預先授權控制和協調。
 
-### 3. Track Progress
-Provide regular check-ins throughout the 90-day period to capture results and identify roadblocks.
+### 3. 追蹤進度
+在 90 天期間提供定期檢查，以獲取結果並識別障礙。
 
-### 4. Deploy AI Tooling
-Formalize AI agent usage across all security functions as standard practice: scanning our own code, ensuring AI-driven review before code ships, and augmenting teams with purpose-built agents. This equips our teams to operate at the same speed as adversaries.
+### 4. 部署 AI 工具
+將 AI Agent 使用常務化，作為所有安全職能的標準實踐：掃描自身程式碼、確保程式碼交付前有 AI 驅動的審查，並用專用 Agent 增強團隊。這使我們的團隊能以與對手相同的速度運作。
 
-### 5. Harden Infrastructure
-Prioritize updating asset inventories; reducing unnecessary exposure; and enforcing segmentation, Zero Trust, egress filtering, and phishing-resistant authentication. Validate these elements across internal systems and key third-party providers (MSPs, SOCs).
+### 5. 強化基礎設施
+優先更新資產庫存；減少不必要的暴露；強制執行分割、Zero Trust、出口過濾和抗網路釣魚認證。在內部系統和關鍵第三方供應商（ MSP、SOC）上驗證這些要素。
 
-### 6. Accelerate Procurement and Governance
-Align across functional teams (security, legal, engineering) to evaluate threats and fast-track priority defensive technology onboarding. Current approval cycles are too slow for the coming threat environment.
+### 6. 加速採購和治理
+跨職能團隊（安全、法務、工程）對齊，評估威脅並優先考慮防禦技術的快速 onboard。當前的審批週期對於即將到來的威脅環境來說太慢。

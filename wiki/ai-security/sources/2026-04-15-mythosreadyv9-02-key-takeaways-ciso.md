@@ -11,36 +11,36 @@ related: [Mythosreadyv9 CSA 報告來源]
 summary: CISO 需知的九項要點：LLM 漏洞發現已成熟可用、必須更新風險指標、準備更多事件回應、用 coding agent 加速團隊、強化基礎安全、準備職業倦怠、建立 Mythos-ready 安全計畫、立即建立集體防禦。
 ---
 
-# II. Key Takeaways for the CISO
+# II. Key Takeaways for the CISO（CISO 必須知道的九項要點）
 
-## Use LLM-based vulnerability discovery and remediation capabilities
+## 使用 LLM 驅動的漏洞發現與修復能力
 
-Unlike defensive AI technologies, LLM-based vulnerability discovery capabilities are already mature and can be used to your advantage. Start immediately by asking an agent for a security review of any code, and build toward a VulnOps capability.
+與防禦性 AI 技術不同，LLM 驅動的漏洞發現能力已經成熟，可以為你所用。立即開始：對任何程式碼請求 Agent 做安全審查，並逐步建立 VulnOps 能力。
 
-## Prepare to respond to more incidents
+## 準備回應更多事件
 
-Run tabletop exercises for multiple simultaneous high-severity incidents occurring within the same week, and have playbooks in place for high-level, critical incidents. Examine how to automate remediation capabilities to the degree possible. Verify and enable mitigating controls such as segmentation, egress filtering, Zero Trust architectures, phishing-resistant MFA, and secrets rotation to limit impact when exploitation occurs. The supply chain will be affected.
+針對同一週內多起同時發生的高嚴重性事件進行桌上演練，並為高層級和關鍵事件準備應對手冊。研究如何盡可能自動化修復能力。驗證並啟用緩解控制，如網路分割、出口過濾、Zero Trust 架構、抗網路釣魚 MFA 和機密輪換，以限制漏洞利用發生時的影響。供應鏈將受到波及。
 
-## Update risk metrics
+## 更新風險指標
 
-With the shifting landscape, many of your metrics and risk assessments may be outdated and could affect business reporting. Consider how to update these, and communicate the challenge with stakeholders.
+隨著格局轉變，你的許多指標和風險評估可能已經過時，並可能影響業務報告。考慮如何更新這些指標，並與利害關係人溝通這項挑戰。
 
-## Accelerate your team by the use of coding agents
+## 使用 coding agent 加速團隊
 
-While defensive AI technologies are lagging behind offensive ones, agents can already accelerate human action across the board, from incident response to GRC. Encourage and require your team to use these agents to accelerate their capabilities. Triage and test patches, red team your environment, automate audit data collection, and accelerate security operations overall.
+雖然防禦性 AI 技術落後於攻擊性技術，但 Agent 已經能夠在各領域加速人類行動，從事件回應到 GR（公司治理）。鼓勵並要求團隊使用這些 Agent 來加速他們的能力。漏洞分級與修補測試、紅隊演練環境、自動化審計數據收集，以及整體安全維運加速。
 
-## Increase focus on the basics
+## 加強專注於基礎安全
 
-The basics remain valid and can be prioritized for risks that cannot otherwise be mitigated. Segmentation, patching known vulns, Identity and Access Management, and defense-in-depth/breadth all increase the difficulty for attackers. To lower latent risk, expanding these efforts while there is time is prudent.
+基礎安全仍然有效，可以作為無法以其他方式緩解的風險的優先處理項目。網路分割、修補已知漏洞、身份識別與存取管理，以及縱深防禼都能增加攻擊者的難度。在還有時間的情況下擴展這些工作以降低潛在風險，是明智之舉。
 
-## We cannot outwork machine-speed threats. Re-prioritize, automate, and prepare for burnout
+## 我們無法以機器速度威脅取勝。需要重新排序優先順序、自動化，並準備好應對職業倦怠
 
-The cadence and volume of vulnerability disclosures will exceed anything we have experienced before. Consider how you manage current priorities, and request additional headcount and budget for reserve capacity to avoid exhausting available resources, or potentially burning out existing staff. This, in parallel with adoption of coding agents, re-prioritization, putting more automation in place, and helping your team through career uncertainties and upskilling challenges.
+漏洞披露的節奏和數量將超過我們以往所經歷的一切。思考如何管理當前優先順序，並請求額外人力和預算儲備，以避免耗盡可用資源或 potentially burn out 現有員工。這需要與採用 coding agent、重新排序優先順序、建立更多自動化，以及幫助團隊應對職業不確定性和技能提升挑戰同步進行。
 
-## Evolve to a Mythos-ready Security Program
+## 演進為 Mythos-ready 安全計畫
 
-Mythos is likely one of many changes coming to cybersecurity risk. If not already underway, seriously consider incorporating Mythos and its implications into your strategy.
+Mythos 可能只是網路安全風險眾多變化中的第一個。如果尚未開始，請認真考慮將 Mythos 及其影響納入你的策略。
 
-## Build Collective Defense Now
+## 立即建立集體防禦
 
-Attackers already operate as syndicates, crowdsourcing, sharing tools, and moving as a collective. Engage now with sector coordinating groups, ISACs, CERTs, and standards bodies to share threat intelligence, coordinate response, and produce sector-specific guidance for this moment. Defenders must do the same and leverage our coordinating groups, especially when considering organizations that fall below the Cyber Poverty Line, as introduced by Wendy Nather.
+攻擊者已經以辛迪加模式運作，眾包分享工具並以集體形式行動。現在就參與產業協調團體、ISAC、CERT 和標準制定機構，分享威脅情資、協調回應，並為這個時刻產生針對特定部門的指導。防守方必須做同樣的事，並利用我們的協調團體，特別是對於落在網路安全貧窮線（Cyber Poverty Line）以下的組織。

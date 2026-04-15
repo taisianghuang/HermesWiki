@@ -11,40 +11,40 @@ related: [Mythosreadyv9 CSA 報告來源]
 summary: Mythos 顯著提升攻擊者發現新漏洞、建立漏洞利用並以規模化自動攻擊的能力。防守方因修補的內在限制而承受更重負擔，攻擊方獲得不對稱優勢。
 ---
 
-# I. Executive Summary
+# I. Executive Summary（執行摘要）
 
-## What happened
+## 發生了什麼
 
-AI, as demonstrated by Anthropic's Mythos, has significantly increased the likelihood of attackers discovering new vulnerabilities, creating new exploits, and using them in complex automated attacks at scale.
+Anthropic 的 Mythos 展示 AI 已大幅提升攻擊者發現新漏洞、建立漏洞利用，以及以複雜自動化攻擊規模化執行的可能性。
 
-While AI also increases the speed of patch development and reduces defects in new software, defenders still face a heavier relative burden due to the inherent limitations of patching. Attackers gain asymmetric benefits.
+AI 同時也加速了修補程式的開發速度並減少了新軟體的缺陷，但防守方因修補的內在限制，仍承受更重的相對負擔。攻擊方獲得不對稱的優勢。
 
-## How is this different from the status quo?
+## 這與現況有何不同
 
-## What do we believe will happen next?
+## 我們相信接下來會發生什麼
 
-The storm of vulnerability disclosures from Project Glasswing is the first of many large waves of AI-discovered vulnerabilities that may occur in rapid sequence.
+Project Glasswing 引發的漏洞披露風暴，是一連串 AI 發現漏洞大浪潮中的第一波，可能會快速接連发生。
 
-The capabilities seen in Mythos will quickly become more widely available, dramatically increasing the number and frequency of complex, novel attacks organizations will face.
+Mythos 中展現的能力將迅速普及，大幅增加組織面臨的複雜新型攻擊數量與頻率。
 
-## What else should start now to be ready for the next waves?
+## 現在該開始做什麼以迎接下一波
 
-Prioritize robust dependency management to reduce vulnerabilities in third-party and open-source components.
+優先強化依賴管理，減少第三方和開源元件中的漏洞。
 
-In the near term, security organizations will likely be overwhelmed by the need to apply patches and respond to AI-discovered vulnerabilities, exploits, and autonomous attacks.
+短期內，安全組織很可能被大量修補需求和 AI 發現的漏洞利用及自主攻擊的回應工作所淹沒。
 
-Enforce automated security assessments consistently in your development processes, including using LLM-powered agents to find vulnerabilities before attackers do.
+在開發流程中強制執行自動化安全評估，包括使用 LLM 驅動的 Agent 在攻擊者之前發現漏洞。
 
-As an industry we need to strengthen our coalitions, cooperation, and coordination.
+在產業層面，我們需要強化聯盟、合作與協調。
 
-## What to do now to deal with the current risk spike?
+## 現在該做什麼來應對當前風險高峰
 
-Introduce AI agents to the cyber workforce across the board, enabling defenders to match attackers' speed and begin closing the gap.
+在整個網路安全團隊中引入 AI Agent，使防守方能夠匹配攻擊者速度並開始縮小差距。
 
-Adjust risk calculations and re-orient security program resources for increasing volume of patches, decreasing time to patch, and more persistent and complex attacks.
+調整風險計算並重新配置安全計畫資源，以應對不斷增加的修補數量、更短的修補時間，以及更持久和複雜的攻擊。
 
-Focus on the basics and harden your environment further. Segmentation, egress filtering, multifactor authentication, and defense-in-depth/breadth all increase the difficulty for attackers.
+強化基礎安全並進一步加固環境。網路分割、出口過濾、多因素認證，以及縱深防禦都能增加攻擊者的難度。
 
-Re-evaluate your risk tolerance for operational downtime caused by vulnerability remediation, to account for shorter adversary timelines.
+重新評估因漏洞修補而導致營運停機的風險承受度，以因應更短的反應時間。
 
-Update governance for more efficient vendor onboarding and increase headcount to facilitate a faster cycle deployment of new AI-based defenses.
+更新治理流程以實現更高效的供應商准入，並增加人力以支持更快部署新 AI 防禦技術的循環。

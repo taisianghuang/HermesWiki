@@ -11,58 +11,58 @@ related: [Mythosreadyv9 CSA 報告來源]
 summary: 介紹 Mythos 的突破性能力（三項關鍵技術特徵）、Project Glasswing 的多方漏洞協調行動，以及 2025-2026 年 AI 漏洞發現能力的加速軌跡時間線。
 ---
 
-# III. Introduction
+# III. Introduction（導論）
 
-## The New Reality
+## 新常態
 
-Many of our assumptions about the capabilities of AI in vulnerability research, exploitation, and autonomous attacks may be outdated. Throughout 2025 and into 2026, we've seen continuous examples of increasing capabilities, both in research and in actual in-the-wild attacks.
+我們對 AI 在漏洞研究、利用和自主攻擊方面能力的假設可能已經過時。從 2025 年到 2026 年，我們看到了能力持續增強的案例，包括研究環境中和實際野生攻擊中。
 
-AI-driven vulnerability discovery and exploitation has been accelerating for over a year. See Appendix A for more details and historical evidence.
+AI 驅動的漏洞發現與利用已加速超過一年。詳見附錄 A 的更多歷史證據。
 
-Anthropic's Claude Mythos (Preview) represents a step change in that trajectory, autonomously finding thousands of critical vulnerabilities across every major operating system and browser, generating working exploits without human guidance, and empowering autonomous attack orchestration, all at a speed and scale that outpaces any prior capability.
+Anthropic 的 Claude Mythos (Preview) 代表了這條軌跡上的階躍變化：自主發現橫跨所有主要作業系統和瀏覽器的數千個關鍵漏洞、在沒有人類指導的情況下生成可用漏洞利用，並賦能自主攻擊編排——速度與規模都超越任何過往能力。
 
-## The Structural Asymmetry
+## 結構性不對稱
 
-The asymmetry this creates is structural. AI lowers the cost and skill floor for discovering and exploiting vulnerabilities faster than organizations can patch them. The window between discovery and weaponization has collapsed to hours. Attackers gain disproportionate benefit, and current patch cycles, response processes, and risk metrics were not built for this environment.
+這個不對稱是結構性的。AI 降低了發現和利用漏洞的成本和技能門檻，速度超過了組織修補它們的能力。從漏洞存在到武器化的視窗已壓縮到小時級。攻擊者獲得不成比例的優勢，而現有的修補週期、回應流程和風險指標並非為這種環境而建構。
 
-## What Makes Mythos Different
+## 是什麼讓 Mythos 與眾不同
 
-While many of these capabilities pre-date this new model, Mythos-class capabilities do represent a step-change, and will proliferate. The organizations that respond well will be those that build the muscle now: the processes, the tooling, and a culture willing to adopt AI as a core part of how security gets done.
+雖然許多這些能力在這個新模型之前就已經存在，但 Mythos 等級的能力確實代表了階躍變化，並將迅速普及。表現良好的組織將是那些現在就建立肌肉的組織：流程、工具，以及願意將 AI 作為安全核心的文化。
 
-Mythos exhibits three capabilities that make it different:
+Mythos 展現了三項使其與眾不同的能力：
 
-**Complex, chained vulnerabilities**: Mythos identifies vulnerabilities composed of multiple primitives chained together, such as scenarios requiring multiple memory corruption bugs combined into a single exploit path.
+**複雜的鏈式漏洞**：Mythos 識別由多個原始漏洞鏈接組成的漏洞，例如需要多個記憶體損壞漏洞组合成單一利用路徑的場景。
 
-**"One-shot" (single-prompt) capability**: Mythos accomplishes significantly more with a single prompt, without elaborate scaffolding or agent configuration.
+**「一擊」（單一 prompt）能力**：Mythos 用單一 prompt 完成比以往多很多的工作，無需複雜的 scaffolding 或 Agent 設定。
 
-## Mythos & Glasswing: Why They Matter
+## Mythos 與 Glasswing：為何重要
 
 ### Mythos
 
-Mythos is distinguished from previous capabilities on both technological and strategic levels. Technologically:
+Mythos 在技術和策略層面上都與先前的能力不同。技術上：
 
-- **Exploits without scaffolding**: Internal lab environment testing at Anthropic showed Mythos generated **181 working exploits on Firefox** where Claude Opus 4.6 succeeded only twice under the same conditions, marking a substantial jump in autonomy and reliability.
+**無需 scaffolding 的漏洞利用**：Anthropic 內部實驗室環境測試顯示，Mythos 在 Firefox 上生成了 **181 個可用漏洞利用**，而 Claude Opus 4.6 在同樣條件下僅成功 2 次，標誌著自主性和可靠性的實質躍升。
 
 ### Project Glasswing
 
-The scale and speed of Mythos prompted Anthropic to create Project Glasswing, possibly the **largest multi-party vulnerability coordination effort in history**. Anthropic provided selected critical infrastructure providers, industry partners, and open source maintainers early access to Mythos so they could patch their own products.
+Mythos 的規模和速度促使 Anthropic 創建了 Project Glasswing，這可能是史上最大規模的多方漏洞協調行動。Anthropic 向選定的關鍵基礎設施供應商、產業夥伴和開源維護者提供了 Mythos 的早期訪問，讓他們能夠修補自己的產品。
 
-The **most significant limitation** of Project Glasswing is that it can only cover so much. The world's exploitable attack surface is vastly larger than what any curated partner ecosystem can cover.
+**Project Glasswing 最主要的限制**是它只能覆蓋這麼多。全球可利用的攻擊面遠遠大於任何精心策劃的合作夥伴生態系統所能覆蓋的範圍。
 
-While the coordination model Glasswing established is critically important, its impact will depend heavily on how quickly it can expand coverage, and whether the patch and disclosure pipeline can keep pace with both AI progress and adversarial adoption.
+雖然 Glasswing 建立的協調模型非常重要，但其影響將嚴重取決於它能多快地擴大覆蓋範圍，以及修補和披露管道是否能跟上 AI 進展和對手採用的步伐。
 
-## The Evolution of LLM-based Offensive Capabilities (2025/2026)
+## LLM 攻擊能力演化時間線（2025-2026）
 
-| Date | Event |
+| 日期 | 事件 |
 |------|-------|
-| Jun 24, 2025 | XBOW tops the HackerOne leaderboard — first autonomous system to outperform all human hackers on the platform |
-| Aug 5, 2025 | Google's Big Sleep finds 20 real-world zero-days in FFmpeg, ImageMagick |
-| Aug 8, 2025 | DARPA AIxCC finals at DEF CON 33 — 54 vulnerabilities in 4 hours across 54 million lines of code |
-| Sep 2025 | Adkins & Evron publish Singularity warning — autonomous vulnerability discovery ~6 months away |
-| Nov 14, 2025 | First AI-orchestrated espionage campaign — Chinese state-sponsored group used Claude Code across ~30 global targets |
-| Feb 5, 2026 | Anthropic reports 500+ high-severity vulnerabilities in open source software |
-| Feb 5, 2026 | AISLE found 12 OpenSSL zero-days, including a CVSS 9.8 flaw dating to 1998 |
-| Mar 2026 | Linux kernel bug reports climbed from 2 to 10/week (initially hallucinated, now all verified real) |
-| Mar 2026 | Sysdig documented AI-based attack reaching admin-level access in 8 minutes |
-| Mar 2026 | [un]prompted conference + Zero Day Clock launched — time-to-exploit now under one day |
-| Apr 7, 2026 | Claude Mythos Preview + Project Glasswing launched — thousands of zero-days, 72% exploit success rate, 27-year-old OpenBSD bug found |
+| 2025年6月24日 | XBOW 登上 HackerOne 排行榜首——首個在平台上超越所有人類駭客的自主系統 |
+| 2025年8月5日 | Google Big Sleep 在 FFmpeg、ImageMagick 中發現 20 個真實零日 |
+| 2025年8月8日 | DARPA AIxCC 決賽在 DEF CON 33——4 小時內在 5400 萬行程式碼中發現 54 個漏洞 |
+| 2025年9月 | Adkins 與 Evron 發布 Singularity 警告——自主漏洞發現約落後 6 個月 |
+| 2025年11月14日 | 首個 AI 編排的間諜活動——中國國家級組織使用 Claude Code 在約 30 個全球目標上執行完整攻擊鏈 |
+| 2026年2月5日 | Anthropic 報告在開源軟體中發現 500+ 個高危漏洞 |
+| 2026年2月5日 | AISLE 發現 12 個 OpenSSL 零日，包括一個可追溯至 1998 年的 CVSS 9.8 漏洞 |
+| 2026年3月 | Linux kernel 漏洞報告從每週 2 個攀升至 10 個（最初是幻覺，現在全部驗證為真實漏洞） |
+| 2026年3月 | Sysdig 記錄 AI 攻擊在 8 分鐘內取得 admin 權限 |
+| 2026年3月 | [un]prompted 會議 + Zero Day Clock 發布——時間到利用現在不到一天 |
+| 2026年4月7日 | Claude Mythos Preview + Project Glasswing 啟動——發現橫跨所有主要 OS 和瀏覽器的數千個零日、72% 漏洞成功率、發現 27 年歷史的 OpenBSD 漏洞 |
