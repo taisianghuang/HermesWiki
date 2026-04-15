@@ -6,6 +6,39 @@
 
 ---
 
+## [2026-04-15] lint | Wiki 健康檢查
+
+- **發現**：共 4 個問題（2 個orphan/wild related、1 個index drift、1 個空 sources）
+- **已修復**：
+  - ai-security sources/2026-04-15-mythosreadyv9.md：`related: []` → `[Mythos AI 漏洞風暴]`
+  - ai-security concepts/2026-04-mythos-ai-vulnerability-storm.md：`related: []` → `[Mythosreadyv9 CSA 報告來源]`
+- **需關注**：
+  - hermes-agent sources/2026-04-14-hermes-agent-repo.md：空 sources（無 raw 檔案路徑）
+  - llm-wiki sources/2026-04-13-llm-wiki-idea.md：空 sources（概念文無 raw 對應）
+  - hermes-agent/_index.md 列出 11 sources 比實際 11 sources 多 1 個
+- **下次 lint**：2026-05-15
+
+## [2026-04-15] query | Mythos-ready Security Program 所需條件
+
+- **回答來源**：ai-security/sources/2026-04-15-mythosreadyv9.md, ai-security/concepts/2026-04-mythos-ai-vulnerability-storm.md
+- **是否存入 analyses/**：是 → 存入 `wiki/ai-security/analyses/2026-04-15-mythosreadyv9-what-is-needed.md`
+
+## [2026-04-15] ingest | CSA Mythosreadyv9 — AI 漏洞風暴戰略簡報
+
+- **主題**：ai-security（新建立）
+- **處理的頁面**：
+  - Sources: `wiki/ai-security/sources/2026-04-15-mythosreadyv9.md`
+  - Concepts: `wiki/ai-security/concepts/2026-04-mythos-ai-vulnerability-storm.md`
+  - Topic index: `wiki/ai-security/_index.md`
+- **關鍵發現**：
+  - Anthropic Claude Mythos Preview 自助發現上千零日漏洞，181 個可用漏洞（72% 成功率）
+  - AI 漏洞發現加速軌跡：2025-06 XBOW → 2026-04 Mythos Preview + Project Glasswing
+  - Zero Day Clock：時間到利用已壓縮至 < 1 天
+  - CSA 提出 13 項風險（4 項 CRITICAL）+ 11 項優先行動（90天計劃）
+  - 核心框架：OWASP LLM Top 10 2025、OWASP Agentic Top 10 2026、MITRE ATLAS、NIST CSF 2.0
+- **相關現有頁面**：新 topic，無現有頁面
+- **創立的 topic**：`wiki/ai-security/`（含 concepts/sources/analyses 三資料夾）
+
 ## [2026-04-14] migrate | 結構遷移：扁平 → 階層式主題架構
 
 - **變更類型**：結構遷移（不影響 wiki 內容）

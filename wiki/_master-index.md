@@ -12,6 +12,7 @@
 | [hermes-agent/](hermes-agent/_index.md) | Hermes Agent 框架架構、開發指南、工具系統 | 25 |
 | [python-engineering/](python-engineering/_index.md) | Python 工程化、ithelp 鐵人賽 30 天系列 | 32 |
 | [llm-wiki/](llm-wiki/_index.md) | LLM Wiki 系統本身的概念與設計 | 2 |
+| [ai-security/](ai-security/_index.md) | AI 安全威脅與防禦（Mythos、零日發現、VulnOps） | 2 |
 
 ---
 
@@ -24,6 +25,6 @@
 ---
 
 ## Statistics
-- **Topics**: 3
-- **Total Pages**: 59
-- **Last updated**: 2026-04-14
+- **Topics**: 4
+- **Total Pages**: 61
+- **Last updated**: 2026-04-15
